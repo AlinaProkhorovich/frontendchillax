@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>َLogin</title>
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+  <body>
+<!--  <form method="POST" action="/signup">-->
+<form action="{{ url_for('login') }}" method="POST">
+<!--    <form class="box"  method="post">-->
+     <span>Chillax</span>
+  <h1>Login</h1>
+  <input type="text" name="" placeholder="Email">
+  <input type="password" name="" placeholder="Password">
+  <input type="submit" name="" value="Login">
+</form>
+
+
+<!--{% extends "base.html" %}-->
+
+<!--{% block content %}-->
+<!--<div class="column is-4 is-offset-4">-->
+<!--    <h3 class="title">Sign Up</h3>-->
+<!--    <div class="box">-->
+<!--        <form method="POST" action="/signup">-->
+<!--            <div class="field">-->
+<!--                <div class="control">-->
+<!--                    <input class="input is-large" type="email" name="email" placeholder="Email" autofocus="">-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--            <div class="field">-->
+<!--                <div class="control">-->
+<!--                    <input class="input is-large" type="text" name="name" placeholder="Name" autofocus="">-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--            <div class="field">-->
+<!--                <div class="control">-->
+<!--                    <input class="input is-large" type="password" name="password" placeholder="Password">-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--            <button class="button is-block is-info is-large is-fullwidth">Sign Up</button>-->
+<!--        </form>-->
+<!--    </div>-->
+<!--</div>-->
+<!--{% endblock %}-->

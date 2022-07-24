@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>َLogin</title>
+    <link rel="stylesheet" href="/static/style.css">
+
+  </head>
+  <body>
+<form action="{{ url_for('register') }}" method="POST">
+<!--<form class="box" action="signup.html" method="post">-->
+
+  <span>Chillax</span>
+
+  <h1>Sign up</h1>
+  <input type="text" name="" placeholder="Email">
+  <input type="password" name="" placeholder="Password">
+    <input type="password" name="" placeholder="Password confirm ">
+  <input type="submit" name="" value="Sign up">
+<!--</form>-->
+</form>
+
+
+  </body>
+</html>
+<!--{% extends "base.html" %}-->
+
+<!--{% block content %}-->
+<!--    {{ session["user"] }}-->
+<!--    <h1>Register</h1>-->
+
+<!--    <form action="{{ url_for('register') }}" method="POST">-->
+<!--        {{ form.hidden_tag() }}-->
+<!--        <div>{{ form.email.label }}</div>-->
+<!--        <div>{{ form.email }}</div>-->
+<!--        <div>{{ form.password.label }}</div>-->
+<!--        <div>{{ form.password }}</div>-->
+<!--        <div>{{ form.password_submit.label }}</div>-->
+<!--        <div>{{ form.password_submit }}</div>-->
+<!--        <div>{{ form.submit }}</div>-->
+<!--    </form>-->
+<!--{% endblock %}-->

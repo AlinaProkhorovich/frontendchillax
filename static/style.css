@@ -1,0 +1,118 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #C4B2BC;
+}
+
+span {
+    font-size: 30px;
+    color: #332E3C;
+    font-family: Kaushan Script, cursive;
+
+}
+
+span {
+  font: 700 4em/1
+  padding: .25em 0 .325em;
+  display: block;
+  text-shadow: 0 0 80px rgba(255, 255, 255, 0.9);
+  animation: bounce-top 2s infinite both;
+  }
+
+
+@keyframes bounce-top {
+  0% {
+    transform: translateY(-45px);
+    animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    transform: translateY(-24px);
+    animation-timing-function: ease-in;
+  }
+  65% {
+    transform: translateY(-12px);
+    animation-timing-function: ease-in;
+  }
+  82% {
+    transform: translateY(-6px);
+    animation-timing-function: ease-in;
+  }
+  93% {
+    transform: translateY(-4px);
+    animation-timing-function: ease-in;
+  }
+  25%,
+  55%,
+  75%,
+  87% {
+    transform: translateY(0px);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translateY(0px);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+
+
+
+
+
+.box{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #C4B2BC;
+  text-align: center;
+}
+
+
+.box h1{
+  color: #332E3C;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #332E3C;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: #332E3C;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+  width: 280px;
+  border-color: #332E3C;
+}
+.box input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #846C5B;
+  padding: 14px 40px;
+  outline: none;
+  color: #332E3C;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #A29587;
+}
